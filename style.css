@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+@media screen  and (min-width: 560px) {
+  body {
+    background-color:yellowgreen;
+  }  
+  
+    }
+
