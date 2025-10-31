@@ -72,5 +72,5 @@ main {
 }
 
 .landskap:hover {
-  
+  filter: opacity(20%);
 }
