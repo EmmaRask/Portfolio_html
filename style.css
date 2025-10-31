@@ -19,9 +19,6 @@ h2, .contact nav a {
     font-size: 2rem;
 }
 
-body{
-    padding:5%;
-}
 
 @media screen  and (min-width: 560px) {
   body {
