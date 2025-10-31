@@ -8,6 +8,7 @@
 
 html {
     font-size: 100%;
+    text-align:left;
 
 }
 
@@ -18,9 +19,12 @@ h1{
 h2, .contact nav a {
     font-size: 2rem;
 }
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 
-body{
-    padding:5%;
 }
 
 @media screen  and (min-width: 560px) {
@@ -32,8 +36,10 @@ body{
   
 }
 
+
 .hero {
     max-height: 50vh;
+    overflow: hidden;
 }
 
 .hero img {
@@ -42,6 +48,19 @@ body{
 }
 a:hover{
     text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
 
